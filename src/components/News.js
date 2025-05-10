@@ -46,7 +46,7 @@ async componentDidMount() {
   this.updateNews();
 }
  handlePrevClick = async ()=>{
-  this.setstate({ page: this.state.page - 1});
+  this.setState({ page: this.state.page - 1});
   this.updateNews();
 
 }
